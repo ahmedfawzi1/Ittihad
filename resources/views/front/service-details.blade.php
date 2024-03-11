@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    Service Details
+    تفاصيل الخدمة
 @stop
 
 @section('style')
@@ -19,16 +19,10 @@
             data-background="{{ asset('assets/front/images/bg/banner-inner.png') }}">
             <div class="container">
                 <div class="banner-inner__content">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">Home</a> /
-                        <span>Services Details</span></h5>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Services
-                        Details</h2>
-                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">We
-                        will help a client's problems to develop the
-                        products they have
-                        with
-                        high quality Change the
-                        appearance.</p>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">الرئيسية</a> /
+                        <span>تفاصيل الخدمة</span></h5>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">تفاصيل الخدمة</h2>
+                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms"></p>
                 </div>
             </div>
         </section>
@@ -45,43 +39,38 @@
                                     <li>
                                         <img src="{{ asset('assets/front/images/icon/service-details-icon1.png') }}"
                                             alt="icon">
-                                        <h6><a href="service-details.html" class="primary-two-color">Analytics and Data
-                                                Insights</a></h6>
+                                        <h6><a href="service-details.html" class="primary-two-color">خدمة 1</a></h6>
                                     </li>
                                     <li>
                                         <img src="{{ asset('assets/front/images/icon/service-details-icon2.png') }}"
                                             alt="icon">
-                                        <h6><a href="service-details.html" class="primary-two-color">Content
-                                                Marketing</a></h6>
+                                        <h6><a href="service-details.html" class="primary-two-color">خدمة 2</a></h6>
                                     </li>
                                     <li>
                                         <img src="{{ asset('assets/front/images/icon/service-details-icon3.png') }}"
                                             alt="icon">
-                                        <h6><a href="service-details.html" class="primary-two-color">Search Engine
-                                                Marketing</a></h6>
+                                        <h6><a href="service-details.html" class="primary-two-color">خدمة 3</a></h6>
                                     </li>
                                     <li>
                                         <img src="{{ asset('assets/front/images/icon/service-details-icon4.png') }}"
                                             alt="icon">
-                                        <h6><a href="service-details.html" class="primary-two-color">Social Media
-                                                Marketing</a></h6>
+                                        <h6><a href="service-details.html" class="primary-two-color">خدمة 4</a></h6>
                                     </li>
                                     <li>
                                         <img src="{{ asset('assets/front/images/icon/service-details-icon5.png') }}"
                                             alt="icon">
-                                        <h6><a href="service-details.html" class="primary-two-color">Pay-Per-Click
-                                                Advertising</a></h6>
+                                        <h6><a href="service-details.html" class="primary-two-color">خدمة 5</a></h6>
                                     </li>
                                 </ul>
                             </div>
                             <div class="bg-image service-book-now text-center pb-4 pt-40 ps-4 pe-4"
                                 data-background="{{ asset('assets/front/images/service/service-details-image2.jpg') }}">
-                                <h4 class="text-white">Do You Need Any <br> Consulting Service?</h4>
-                                <a href="index.html" class="btn-one w-100 text-center mt-60">Go Back Homepage<i
-                                        class="fa-regular fa-arrow-right ml-10"></i></a>
+                                <h4 class="text-white">هل تحتاج إلى أي <br> خدمة استشارية؟</h4>
+                                <a href="index.html" class="btn-one w-100 text-center mt-60">العودة إلى الصفحة الرئيسية<i
+                                        class="fa-regular fa-arrow-left ml-10"></i></a>
                             </div>
                             <button class="download-brochure mt-40">
-                                Download Brochure
+                                تحميل الكتيب
                                 <svg width="23" height="26" viewBox="0 0 23 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -93,56 +82,61 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="service-details__right-item">
-                            <h2 class="mb-30 text-capitalize">Discover your data's destiny</h2>
-                            <p class="mb-20">The Tech side of startups can sometimes be very fluid and contain a lot of
-                                unknowns. What tech stack to use? Which
-                                components might be overkill for now but worth keeping an eye on in the future? How to
-                                balance the pace of business
-                                features development while keeping the quality bar high enough to have a maintainable
-                                codebase?</p>
-                            <p class="mb-60">Here I want to share our experience building
-                                <a href="https://cleanbee.syzygy-ai.com/">https://cleanbee.syzygy-ai.com/</a>
-                                from the ground
-                                up — how we shaped our
-                                processes based on needs and how our processes how we shaped our evolved as we extended
-                                our tech stack
-                                with
-                                new components.
+                            <h2 class="mb-30 text-capitalize">اكتشف مصير بياناتك</h2>
+                            <p class="mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                                أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+
+                                نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
+
+                                كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.</p>
+                            <p class="mb-60">سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+
+                                دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري فيرأتاتيس ايت
+
+                                كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو.
                             </p>
                             <div class="image mb-60">
                                 <img src="{{ asset('assets/front/images/service/service-details-image1.jpg') }}"
                                     alt="image">
                             </div>
-                            <h3 class="mb-20">Start Shaping the Process</h3>
-                            <p class="mb-25">What we have at the start:</p>
+                            <h3 class="mb-20">ابدأ في تشكيل العملية</h3>
+                            <p class="mb-25">ما لدينا في البداية:</p>
                             <ul class="list-text">
-                                <li class="mb-20">Less than a dozen developers — in-house team and temporary contractors
-                                    who
-                                    want to and
-                                    can work asynchronously</li>
-                                <li class="mb-20">Completely greenfield project — no single line of code has been
-                                    written
-                                    yet. Requirements are vague, but they already
-                                    started shaping into something</li>
-                                <li class="mb-20">Tech-wise — the clear need for a backend that should talk with mobile
-                                    clients</li>
-                                <li class="mb-25">Some simple web frontend — static pages should be enough! (nope)</li>
+                                <li class="mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</li>
+                                <li class="mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</li>
+                                <li class="mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</li>
+                                <li class="mb-25">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</li>
                             </ul>
-                            <p class="mb-30">We have started simple — code at GitHub and a PR-based flow with a single
-                                requirement — to
-                                have tickets split table to
-                                be delivered in 1–3 days. This required some practice of story slicing, and it seems
-                                that a
-                                sense of visible fast
-                                progress is shown through the ability to move tickets to Done. This can be a great
-                                motivational factor for the team to
-                                onboard that idea.</p>
-                            <h3 class="mb-20">Our Simple Roadmap</h3>
-                            <p>Nowadays, the choice of frameworks is really wide, but again, due to some experience with
-                                Flutter, we decided to give it
-                                a go. Within mobile development, one of the important aspects to better decide on is
-                                state
-                                management.</p>
+                            <p class="mb-30">يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                                أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+
+                                نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
+
+                                كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.</p>
+                            <h3 class="mb-20">خريطة الطريق البسيطة الخاصة بنا</h3>
+                            <p>أوففايكايس ديبايتايس أيوت ريريوم نيسيسسايتاتايبيوس سايبي ايفينايت يوت ايت فوليبتاتيس
+
+                                ريبيودايايانداي ساينت ايت موليسفاياي نون ريكيوسانداي.اتاكيوي ايريوم ريريوم هايس تينيتور
+
+                                أ ساباينتي ديليكتيوس, يوت أيوت رياسايندايس فوليوبتاتايبص مايوريس ألايس
+
+                                كونسيكيواتور أيوت بيرفيريندايس دولورايبيوس أسبيرايوريس ريبيللات .</p>
                             <div class="service-details__icon pt-40 pb-40 bor-top bor-bottom mt-60 mb-60">
                                 <div class="row g-4">
                                     <div class="col-md-4">
@@ -155,8 +149,8 @@
                                                         fill="#0A83EC" />
                                                 </svg>
                                             </div>
-                                            <h5 class="mb-1 mt-20">Collect Doc</h5>
-                                            <p>We collect require documents <br> and send for check</p>
+                                            <h5 class="mb-1 mt-20"> جمع الوثيقة</h5>
+                                            <p>نقوم بجمع المستندات المطلوبة <br> وإرسالها للتحقق</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -169,8 +163,8 @@
                                                         fill="#433EED" />
                                                 </svg>
                                             </div>
-                                            <h5 class="mb-1 mt-20">Check & Finalize</h5>
-                                            <p>We check the document and <br> send for final approval</p>
+                                            <h5 class="mb-1 mt-20">تحقق ووضع اللمسات النهائية</h5>
+                                            <p>نحن نتحقق من الوثيقة و <br> إرسال للموافقة النهائية</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -183,25 +177,28 @@
                                                         fill="#00C881" />
                                                 </svg>
                                             </div>
-                                            <h5 class="mb-1 mt-20">Approve</h5>
-                                            <p>After approve you’ll ready to use <br> your software</p>
+                                            <h5 class="mb-1 mt-20">يعتمد</h5>
+                                            <p>بعد الموافقة ستكون جاهزًا للاستخدام <br> البرامج الخاصة بك</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="service-details__testimonial bg-image mb-60"
                                 data-background="{{ asset('assets/front/images/service/service-details-bg.jpg') }}">
-                                <p>“I am genuinely thrilled by the current fusion of technologies
-                                    reshaping digital
-                                    marketing. The integration of data
-                                    analytics, AI and automation is revolutionizing our approach.”</p>
+                                <p>“لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                                    أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ,سيونت ان كيولبا
+
+                                    كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.”</p>
                                 <div class="d-flex align-items-center justify-content-between mt-30">
                                     <div class="info d-flex align-items-center gap-3">
                                         <img src="{{ asset('assets/front/images/service/service-details-user.png') }}"
                                             alt="image">
                                         <div>
-                                            <h6 class="text-white">Willamson Hussy</h6>
-                                            <span class="para-light-color">CEO of Kingtech</span>
+                                            <h6 class="text-white">اسم الشخص</h6>
+                                            <span class="para-light-color">الرياضة</span>
                                         </div>
                                     </div>
                                     <svg width="72" height="62" viewBox="0 0 72 62" fill="none"
@@ -215,21 +212,22 @@
                                     </svg>
                                 </div>
                             </div>
-                            <h3 class="text-capitalize mb-20">How did we get into Terraform?</h3>
-                            <p class="mb-20">The backend, a part of the DB, also should have some object/file storage.
-                                Sooner or later, we also should have DNS so
-                                that our services are ready to play with the big cruel world.</p>
-                            <p class="mb-20">The choice of cloud provider was purely based on existing expertise within
-                                the team. We already use AWS for other
-                                projects, so we decided to stick with it. For sure, it is possible to do everything in
-                                the AWS console, but as times go,
-                                things become a classic big ball of AWS console, but as times go, mud that everyone is
-                                terrified to touch, and no one
-                                remembers why this bit exists at
-                                all.</p>
-                            <p>Our approach to choosing with whom we work activities to try the most promising one
-                                chosen by features, supported
-                                languages, and, in the case of providers, pricing.</p>
+                            <h3 class="text-capitalize mb-20">كيف وصلنا إلى هنا؟</h3>
+                            <p class="mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+                            <p class="mb-20">يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                                أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+
+                                نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
+
+                                كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.</p>
+                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                         </div>
                     </div>
                 </div>
@@ -272,51 +270,48 @@
                 <div class="row g-4">
                     <div class="col-lg-7">
                         <div class="section-header">
-                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Get
-                                started with us</h5>
-                            <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Start
-                                Conversation to <span class="light-underline">Skyrocket</span>
-                                Your Business</h2>
+                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">ابدأ
+                                معنا</h5>
+                            <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                ابدأ المحادثة مع <span class="light-underline">خدمة عملائنا</span></h2>
                             <p class="para-light-color wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                                Schedule a free consultation with our experts. Uncover
-                                opportunities <br>
-                                and take the first
-                                step towards digital success</p>
+                                لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت <br>
+                                سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                             <div class="d-flex align-items-center gap-4 mt-40 wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1000ms">
-                                <a href="#0" class="btn-one">Let’s Talk<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></a>
-                                <span class="para-light-color">Or</span>
-                                <a href="#0" class="explore-btn-light"><span>Book A Demo</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('contact') }}" class="btn-one">لنتواصل<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></a>
+                                <span class="para-light-color">أو</span>
+                                <a href="{{ route('book') }}" class="explore-btn-light"><span>احجز معنا</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="contact__form">
-                            <h3 class="text-capitalize mb-30 text-center">get a free consultation with marketing our
-                                Expert</h3>
+                            <h3 class="text-capitalize mb-30 text-center">احصل على استشارة مجانية مع خبرائنا</h3>
                             <form action="#">
-                                <input type="text" placeholder="Company Name">
+                                <input type="text" placeholder="اسم الرياضة">
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="First Name*">
+                                        <input type="text" placeholder="الاسم الاول*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Last Name*">
+                                        <input type="text" placeholder="الاسم الاخير*">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="Email Address*">
+                                        <input type="text" placeholder="البريد الإلكتروني*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Phone Number*">
+                                        <input type="text" placeholder="رقم الهاتف*">
                                     </div>
                                 </div>
-                                <textarea name="#" id="#" placeholder="Message"></textarea>
-                                <button class="btn-one transition">Submit<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></button>
+                                <textarea name="#" id="#" placeholder="الرسالة*"></textarea>
+                                <button class="btn-one transition">تأكيد<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></button>
                             </form>
                         </div>
                     </div>

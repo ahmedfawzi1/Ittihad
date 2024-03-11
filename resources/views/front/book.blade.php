@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    Book
+    المسابقات
 @stop
 
 @section('style')
@@ -19,17 +19,13 @@
             data-background="{{ asset('assets/front/images/bg/banner-inner.png') }}">
             <div class="container">
                 <div class="banner-inner__content">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">Home</a> /
-                        <span>Book a Demo</span>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">الرئيسية</a> /
+                        <span>الإستراكات</span>
                     </h5>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Book a Demo
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">الإستراكات
                     </h2>
-                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">We
-                        will help a client's problems to develop the
-                        products they have
-                        with
-                        high quality Change the
-                        appearance.</p>
+                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">سنساعد
+                        مشاكل العميل على تطوير رياضته بجودة عالية.</p>
                 </div>
             </div>
         </section>
@@ -42,49 +38,47 @@
                     <div class="col-lg-5">
                         <div class="book-demo__left-item">
                             <div class="section-header-two mb-30 pb-30 bor-bottom">
-                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Book a Demo
-                                    Today
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">اشترك معنا اليوم
                                 </h5>
-                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Experience
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">خبرة
                                     <br>
-                                    Marketi in Action!
+                                    الاتحاد في العمل!
                                 </h2>
-                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Ready to
-                                    revolutionize your digital marketing efforts? <br> Schedule a personalized
-                                    demo
-                                    of
-                                    Marketi.</p>
+                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">لوريم ايبسوم دولار
+                                    سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت <br> سيت دو أيوسمود تيمبور
+
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                             </div>
-                            <h6 class="mb-1">01. Explore Key Features</h6>
-                            <p class="mb-20">Get an in-depth look at Marketi's powerful features.</p>
-                            <h6 class="mb-1">03. Live Demonstration</h6>
-                            <p>See Marketi in action with a live demonstration <br> guided by our expert team.</p>
+                            <h6 class="mb-1">01. اكتشف الميزات الرئيسية</h6>
+                            <p class="mb-20">احصل على نظرة متعمقة على ميزات الاتحاد القوية.</p>
+                            <h6 class="mb-1">02. مظاهرة حية</h6>
+                            <p>شاهد الاتحاد أثناء العمل من خلال عرض حي <br> بتوجيه من فريق الخبراء لدينا.</p>
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="book-demo__right-item">
                             <div class="contact__form">
                                 <form action="#">
-                                    <input type="text" placeholder="Company Name">
+                                    <input type="text" placeholder="اسم الرياضة">
                                     <div class="row g-3">
                                         <div class="col-6">
-                                            <input type="text" placeholder="First Name*">
+                                            <input type="text" placeholder="الاسم الاول*">
                                         </div>
                                         <div class="col-6">
-                                            <input type="text" placeholder="Last Name*">
+                                            <input type="text" placeholder="الاسم الاخير*">
                                         </div>
                                     </div>
                                     <div class="row g-3">
                                         <div class="col-6">
-                                            <input type="text" placeholder="Email Address*">
+                                            <input type="text" placeholder="البريد الإلكتروني*">
                                         </div>
                                         <div class="col-6">
-                                            <input type="text" placeholder="Phone Number*">
+                                            <input type="text" placeholder="رقم الهاتف*">
                                         </div>
                                     </div>
-                                    <textarea name="#" id="#" placeholder="Message"></textarea>
-                                    <button class="btn-one transition">Submit<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></button>
+                                    <textarea name="#" id="#" placeholder="الرسالة*"></textarea>
+                                    <button class="btn-one transition">تأكيد<i
+                                            class="fa-regular fa-circle-arrow-left ml-10"></i></button>
                                 </form>
                             </div>
                         </div>

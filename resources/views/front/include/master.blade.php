@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     @include('front.include.head')
 </head>
 
-<body>
+<body >
 
     <!-- Preloader area start -->
     <div id="loading" class="preloader">

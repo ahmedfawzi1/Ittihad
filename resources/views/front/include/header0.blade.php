@@ -3,60 +3,53 @@
        <div class="container">
            <div class="header__main">
                <a href="/" class="logo">
-                   <img src="{{ asset('assets/front/images/logo/logo.svg') }}" alt="logo">
+                   <img src="{{ asset('assets/front/images/logo/Picture1.jpg') }}" alt="logo">
                </a>
                <a href="/" class="logo logo-light">
-                   <img src="{{ asset('assets/front/images/logo/logo.svg') }}" alt="logo">
+                   <img src="{{ asset('assets/front/images/logo/Picture1.jpg') }}" alt="logo">
                </a>
                <div class="main-menu">
                    <nav>
                        <ul>
                            <li>
-                               <a href="/">Home</a>
+                               <a href="/">الرئيسية</a>
 
                            </li>
-                           <li><a href="{{ route('about') }}">About Us</a></li>
+                           <li><a href="{{ route('about') }}">من نحن</a></li>
                            <li>
-                               <a href="{{ route('service') }}">Services <i class="fa-solid fa-angle-down"></i></a>
+                               <a href="{{ route('service') }}">الخدمات <i class="fa-solid fa-angle-down"></i></a>
                                <ul class="sub-menu">
                                    <li>
-                                       <a href="{{ route('service') }}">Service</a>
+                                       <a href="{{ route('service') }}">الخدمات</a>
                                    </li>
                                    <li>
-                                       <a href="{{ route('serviceDetails') }}">Service Details</a>
+                                       <a href="{{ route('serviceDetails') }}">تفاصيل الخدمات</a>
                                    </li>
                                </ul>
                            </li>
                            <li>
-                               <a href="{{ route('team') }}">Team <i class="fa-solid fa-angle-down"></i></a>
-                               <ul class="sub-menu">
-                                   <li>
-                                       <a href="{{ route('team') }}">Team</a>
-                                   </li>
-                                   <li>
-                                       <a href="{{ route('teamDetails') }}">Team Details</a>
-                                   </li>
-                               </ul>
-                           </li>
-                           <li>
-                               <a href="{{ route('blog') }}">Blog <i class="fa-solid fa-angle-down"></i></a>
-                               <ul class="sub-menu">
-                                   <li>
-                                       <a href="{{ route('blog') }}">Blog & Articles</a>
-                                   </li>
-                                   <li>
-                                       <a href="{{ route('blogDetails') }}">Blog Details</a>
-                                   </li>
-                               </ul>
-                           </li>
-                           <li> <a href="{{ route('pricing') }}">Pricing Plan</a> </li>
-                           <li><a href="{{ route('book') }}">Book a Demo</a></li>
-                           <li><a href="{{ route('contact') }}">Contact</a></li>
+                            <a href="{{ route('team') }}">المركز الإعلامي <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="{{ route('team') }}">البوم الصور</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('teamDetails') }}">مكتبة الفيديو</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('blog') }}">الاخبار</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li> <a href="{{ route('pricing') }}">الاشتراكات</a> </li>
+                        <li><a href="{{ route('book') }}">المسابقات</a></li>
+                        <li><a href="{{ route('contact') }}">التواصل</a></li>
                        </ul>
                    </nav>
                </div>
-               <a href="{{ route('contact') }}" class="btn-menu d-none d-lg-inline-block">Get in Touch<i
-                       class="fa-regular fa-circle-arrow-right ml-10"></i></a>
+               <a href="{{ route('contact') }}" class="btn-menu d-none d-lg-inline-block">ابقى على تواصل<i
+                       class="fa-regular fa-circle-arrow-left ml-10"></i></a>
                <div class="bars d-block d-lg-none">
                    <i id="openButton" class="fa-solid fa-bars"></i>
                </div>

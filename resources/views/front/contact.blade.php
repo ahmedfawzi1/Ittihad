@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    Contact
+    التواصل
 @stop
 
 @section('style')
@@ -19,16 +19,12 @@
             data-background="{{ asset('assets/front/images/bg/banner-inner.png') }}">
             <div class="container">
                 <div class="banner-inner__content">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">Home</a> /
-                        <span>Contact</span>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">الرئيسية</a> /
+                        <span>التواصل</span>
                     </h5>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Contact</h2>
-                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">We
-                        will help a client's problems to develop the
-                        products they have
-                        with
-                        high quality Change the
-                        appearance.</p>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">التواصل</h2>
+                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">سنساعد
+                        مشاكل العميل على تطوير رياضته بجودة عالية.</p>
                 </div>
             </div>
         </section>
@@ -38,13 +34,12 @@
         <section class="contact-area pt-120 pb-120">
             <div class="container">
                 <div class="section-header-two mb-90 text-center">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Contact us</h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">We’d love to hear from
-                        <span>you</span>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">تواصل معنا</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">نحن نحب أن نسمع
+                        <span>منك</span>
                     </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Your feedback is
-                        invaluable to us, and we eagerly await your thoughts <br> and insights. Chat to our friendly
-                        team.
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">تعليقاتك لا تقدر بثمن بالنسبة
+                        لنا، ونحن ننتظر أفكارك بفارغ الصبر <br> والرؤى. الدردشة مع فريقنا الودود.
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4">
@@ -57,9 +52,9 @@
                                         fill="white" />
                                 </svg>
                             </div>
-                            <h4>Chat to support</h4>
-                            <p>Speak to our friendly team.</p>
-                            <a href="#0">support@marketi.test</a>
+                            <h4>الدردشة لدعم</h4>
+                            <p>تحدث إلى فريقنا الودود.</p>
+                            <a href="#0">support@ittihad.test</a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -72,8 +67,8 @@
                                         fill="white" />
                                 </svg>
                             </div>
-                            <h4>Visit us</h4>
-                            <p>Visit our office HQ.</p>
+                            <h4>زورنا</h4>
+                            <p>قم بزيارة المقر الرئيسي لمكتبنا.</p>
                             <a href="#0">456 Elm Avenue, <br>
                                 Cityville, State 67890</a>
                         </div>
@@ -88,8 +83,8 @@
                                         fill="white" />
                                 </svg>
                             </div>
-                            <h4>Call us</h4>
-                            <p>Mon-Fri from 8am to 5pm.</p>
+                            <h4>اتصل بنا</h4>
+                            <p>من الاثنين إلى الجمعة من الساعة 8 صباحًا حتى الساعة 5 مساءً.</p>
                             <a href="tel:+3929299999">+3929 299 999</a>
                         </div>
                     </div>
@@ -112,29 +107,29 @@
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="contact__form">
-                            <h2 class="text-capitalize mb-10">Get in touch</h2>
-                            <p class="mb-30">Our team would love to hear from you. Write your <br> message to us!</p>
+                            <h2 class="text-capitalize mb-10">ابقى على تواصل</h2>
+                            <p class="mb-30">يود فريقنا أن يسمع منك. اكتب <br> رسالة لنا!</p>
                             <form action="#">
-                                <input type="text" placeholder="Company Name">
+                                <input type="text" placeholder="اسم الرياضة">
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="First Name*">
+                                        <input type="text" placeholder="الاسم الاول*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Last Name*">
+                                        <input type="text" placeholder="الاسم الاخير*">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="Email Address*">
+                                        <input type="text" placeholder="البريد الإلكتروني*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Phone Number*">
+                                        <input type="text" placeholder="رقم الهاتف*">
                                     </div>
                                 </div>
-                                <textarea name="#" id="#" placeholder="Message"></textarea>
-                                <button class="btn-one transition">Submit<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></button>
+                                <textarea name="#" id="#" placeholder="الرسالة*"></textarea>
+                                <button class="btn-one transition">تأكيد<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></button>
                             </form>
                         </div>
                     </div>
@@ -144,7 +139,7 @@
         <!-- Contact area end here -->
 
         <!-- Faq area start here -->
-        <section class="faq-area pt-120 pb-120">
+        {{-- <section class="faq-area pt-120 pb-120">
             <div class="container">
                 <div class="section-header__wrp mb-90">
                     <div class="section-header-two">
@@ -225,7 +220,7 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +280,7 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -345,34 +340,32 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Faq area end here -->
 
         <!-- started area start here -->
         <section class="started-area">
             <div class="container">
-                <div class="started__item bg-image"
-                    data-background="{{ asset('assets/front/images/bg/started-bg.png') }}">
+                <div class="started__item bg-image" data-background="{{ asset('assets/front/images/bg/started-bg.png') }}">
                     <div class="section-header-two text-center mb-40">
-                        <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Unlock Your
-                            Digital Potential with <br> Marketi's SEO Solutions!</h2>
+                        <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">أطلق العنان
+                            لإمكانياتك الرياضية مع <br> حلول تحسين محركات البحث الخاصة بالاتحاد!</h2>
                         <p class="para-light-color wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                            Elevate your online presence with Marketi's trusted SEO
-                            solutions.
+                            سنساعد مشاكل العميل على تطوير رياضته بجودة عالية.
                         </p>
                     </div>
                     <div class="btn__group text-center wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-                        <a href="pricing.html" class="btn-two">Get Started<i
-                                class="fa-regular fa-arrow-right ml-10"></i></a>
-                        <a href="about.html" class="btn-three ms-4">Learn More<i
-                                class="fa-regular fa-arrow-right ml-10"></i></a>
+                        <a href="{{ route('pricing') }}" class="btn-two">اشترك معنا<i
+                                class="fa-regular fa-arrow-left ml-10"></i></a>
+                        <a href="{{ route('about') }}" class="btn-three ms-4">اقرأ المزيد<i
+                                class="fa-regular fa-arrow-left ml-10"></i></a>
                     </div>
                 </div>
             </div>

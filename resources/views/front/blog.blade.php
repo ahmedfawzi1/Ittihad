@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    Blog
+    اخر الأخبار
 @stop
 
 @section('style')
@@ -19,17 +19,12 @@
             data-background="{{ asset('assets/front/images/bg/banner-inner.png') }}">
             <div class="container">
                 <div class="banner-inner__content">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">Home</a> /
-                        <span>Blog & Articles</span>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">الرئيسية</a> /
+                        <span>اخر الأخبار</span>
                     </h5>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Blog &
-                        Articles</h2>
-                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">We
-                        will help a client's problems to develop the
-                        products they have
-                        with
-                        high quality Change the
-                        appearance.</p>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">اخر الأخبار</h2>
+                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">سنساعد
+                        مشاكل العميل على تطوير رياضته بجودة عالية.</p>
                 </div>
             </div>
         </section>
@@ -53,7 +48,7 @@
                                                 d="M7.00753 7.95833C5.05419 7.95833 3.46586 6.36917 3.46586 4.41667C3.46586 2.46417 5.05419 0.875 7.00753 0.875C8.96086 0.875 10.5492 2.46417 10.5492 4.41667C10.5492 6.36917 8.96086 7.95833 7.00753 7.95833ZM7.00753 2.125C5.74336 2.125 4.71586 3.1525 4.71586 4.41667C4.71586 5.68083 5.74336 6.70833 7.00753 6.70833C8.27169 6.70833 9.29919 5.68083 9.29919 4.41667C9.29919 3.1525 8.27086 2.125 7.00753 2.125ZM10.3308 17.125H3.66921C1.65254 17.125 0.541664 16.0209 0.541664 14.0159C0.541664 11.7984 1.79666 9.20833 5.33333 9.20833H8.66666C12.2033 9.20833 13.4583 11.7975 13.4583 14.0159C13.4583 16.0209 12.3475 17.125 10.3308 17.125ZM5.33333 10.4583C2.0475 10.4583 1.79166 13.1809 1.79166 14.0159C1.79166 15.3192 2.35337 15.875 3.66921 15.875H10.3308C11.6466 15.875 12.2083 15.3192 12.2083 14.0159C12.2083 13.1817 11.9525 10.4583 8.66666 10.4583H5.33333Z"
                                                 fill="#25314C" />
                                         </svg>
-                                        <a href="#" class="primary-hover para-color">John Smith</a>
+                                        <a href="#" class="primary-hover para-color">اسم الشخص</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="16" viewBox="0 0 18 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +57,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">Business</a>
+                                        <a href="#" class="primary-hover para-color">الرياضة</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +66,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">January 25, 2024</a>
+                                        <a href="#" class="primary-hover para-color">25 يناير 2024</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="17" viewBox="0 0 18 17" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -80,18 +75,18 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">No Comments</a>
+                                        <a href="#" class="primary-hover para-color">بدون تعليقات</a>
                                     </li>
                                 </ul>
                                 <h3><a class="primary-hover" href="{{ route('blogDetails') }}">
-                                        Why is SEO content writing important?
+                                        كيو فوليوبتاس نيولا باراياتيور؟
                                     </a></h3>
-                                <p class="mt-10 mb-20">Search engines are a super important traffic source for blogs.
-                                    Our own
-                                    blog is living proof of the power of SEO. Sure,
-                                    we get a fair...</p>
-                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>Read More</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <p class="mt-10 mb-20">أت فيرو ايوس ايت أكيوساميوس ايت أيوستو أودايو دايجنايسسايموس
+                                    ديوكايميوس كيواي
+                                    بلاندايتاييس برايسينتايوم فوليوبتاتيوم ديلينايتاي أتكيوي كورريوبتاي كيوأوس دولوريس أيت
+                                    سيما يليكيوسيونت ان كيولبا كيواي أوفايكيا ديسيريونت موللايتايا انايماي...</p>
+                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>قراءة المزيد</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                             <div class="blog-two__item mb-40">
                                 <a href="{{ route('blogDetails') }}" class="image d-block">
@@ -105,7 +100,7 @@
                                                 d="M7.00753 7.95833C5.05419 7.95833 3.46586 6.36917 3.46586 4.41667C3.46586 2.46417 5.05419 0.875 7.00753 0.875C8.96086 0.875 10.5492 2.46417 10.5492 4.41667C10.5492 6.36917 8.96086 7.95833 7.00753 7.95833ZM7.00753 2.125C5.74336 2.125 4.71586 3.1525 4.71586 4.41667C4.71586 5.68083 5.74336 6.70833 7.00753 6.70833C8.27169 6.70833 9.29919 5.68083 9.29919 4.41667C9.29919 3.1525 8.27086 2.125 7.00753 2.125ZM10.3308 17.125H3.66921C1.65254 17.125 0.541664 16.0209 0.541664 14.0159C0.541664 11.7984 1.79666 9.20833 5.33333 9.20833H8.66666C12.2033 9.20833 13.4583 11.7975 13.4583 14.0159C13.4583 16.0209 12.3475 17.125 10.3308 17.125ZM5.33333 10.4583C2.0475 10.4583 1.79166 13.1809 1.79166 14.0159C1.79166 15.3192 2.35337 15.875 3.66921 15.875H10.3308C11.6466 15.875 12.2083 15.3192 12.2083 14.0159C12.2083 13.1817 11.9525 10.4583 8.66666 10.4583H5.33333Z"
                                                 fill="#25314C" />
                                         </svg>
-                                        <a href="#" class="primary-hover para-color">John Smith</a>
+                                        <a href="#" class="primary-hover para-color">اسم الشخص</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="16" viewBox="0 0 18 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +109,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">Business</a>
+                                        <a href="#" class="primary-hover para-color">الرياضة</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="18" viewBox="0 0 18 18" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -123,7 +118,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">January 25, 2024</a>
+                                        <a href="#" class="primary-hover para-color">25 يناير 2024</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="17" viewBox="0 0 18 17"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,17 +127,17 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">No Comments</a>
+                                        <a href="#" class="primary-hover para-color">بدون تعليقات</a>
                                     </li>
                                 </ul>
                                 <h3><a class="primary-hover" href="{{ route('blogDetails') }}">
-                                        How does Google know how to rank a page?
+                                        كيو فوليوبتاس نيولا باراياتيور؟
                                     </a></h3>
-                                <p class="mt-10 mb-20">Every time you use them, their algorithms choose pages that are
-                                    the most relevant to your query. And then, rank them,
-                                    displaying the most authoritative or popular ones first...</p>
-                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>Read More</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <p class="mt-10 mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                                    أيوسمود تيمبور
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا ...</p>
+                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>قراءة المزيد</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                             <div class="blog-two__item mb-40">
                                 <a href="{{ route('blogDetails') }}" class="image d-block">
@@ -156,7 +151,7 @@
                                                 d="M7.00753 7.95833C5.05419 7.95833 3.46586 6.36917 3.46586 4.41667C3.46586 2.46417 5.05419 0.875 7.00753 0.875C8.96086 0.875 10.5492 2.46417 10.5492 4.41667C10.5492 6.36917 8.96086 7.95833 7.00753 7.95833ZM7.00753 2.125C5.74336 2.125 4.71586 3.1525 4.71586 4.41667C4.71586 5.68083 5.74336 6.70833 7.00753 6.70833C8.27169 6.70833 9.29919 5.68083 9.29919 4.41667C9.29919 3.1525 8.27086 2.125 7.00753 2.125ZM10.3308 17.125H3.66921C1.65254 17.125 0.541664 16.0209 0.541664 14.0159C0.541664 11.7984 1.79666 9.20833 5.33333 9.20833H8.66666C12.2033 9.20833 13.4583 11.7975 13.4583 14.0159C13.4583 16.0209 12.3475 17.125 10.3308 17.125ZM5.33333 10.4583C2.0475 10.4583 1.79166 13.1809 1.79166 14.0159C1.79166 15.3192 2.35337 15.875 3.66921 15.875H10.3308C11.6466 15.875 12.2083 15.3192 12.2083 14.0159C12.2083 13.1817 11.9525 10.4583 8.66666 10.4583H5.33333Z"
                                                 fill="#25314C" />
                                         </svg>
-                                        <a href="#" class="primary-hover para-color">John Smith</a>
+                                        <a href="#" class="primary-hover para-color">اسم الشخص</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="16" viewBox="0 0 18 16"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +160,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">Business</a>
+                                        <a href="#" class="primary-hover para-color">الرياضة</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="18" viewBox="0 0 18 18"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,7 +169,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">January 25, 2024</a>
+                                        <a href="#" class="primary-hover para-color">25 يناير 2024</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="17" viewBox="0 0 18 17"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,17 +178,17 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">No Comments</a>
+                                        <a href="#" class="primary-hover para-color">بدون تعليقات</a>
                                     </li>
                                 </ul>
                                 <h3><a class="primary-hover" href="{{ route('blogDetails') }}">
-                                        How to write blog posts for SEO?
+                                        كيو فوليوبتاس نيولا باراياتيور؟
                                     </a></h3>
-                                <p class="mt-10 mb-20">It’s important to understand that you can’t just create any old
-                                    blog post and expect your post to attract thousands of
-                                    visits from Google. It doesn’t work like that...</p>
-                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>Read More</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <p class="mt-10 mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                                    أيوسمود تيمبور
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا ...</p>
+                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>قراءة المزيد</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                             <div class="blog-two__item mb-40">
                                 <a href="{{ route('blogDetails') }}" class="image d-block">
@@ -207,7 +202,7 @@
                                                 d="M7.00753 7.95833C5.05419 7.95833 3.46586 6.36917 3.46586 4.41667C3.46586 2.46417 5.05419 0.875 7.00753 0.875C8.96086 0.875 10.5492 2.46417 10.5492 4.41667C10.5492 6.36917 8.96086 7.95833 7.00753 7.95833ZM7.00753 2.125C5.74336 2.125 4.71586 3.1525 4.71586 4.41667C4.71586 5.68083 5.74336 6.70833 7.00753 6.70833C8.27169 6.70833 9.29919 5.68083 9.29919 4.41667C9.29919 3.1525 8.27086 2.125 7.00753 2.125ZM10.3308 17.125H3.66921C1.65254 17.125 0.541664 16.0209 0.541664 14.0159C0.541664 11.7984 1.79666 9.20833 5.33333 9.20833H8.66666C12.2033 9.20833 13.4583 11.7975 13.4583 14.0159C13.4583 16.0209 12.3475 17.125 10.3308 17.125ZM5.33333 10.4583C2.0475 10.4583 1.79166 13.1809 1.79166 14.0159C1.79166 15.3192 2.35337 15.875 3.66921 15.875H10.3308C11.6466 15.875 12.2083 15.3192 12.2083 14.0159C12.2083 13.1817 11.9525 10.4583 8.66666 10.4583H5.33333Z"
                                                 fill="#25314C" />
                                         </svg>
-                                        <a href="#" class="primary-hover para-color">John Smith</a>
+                                        <a href="#" class="primary-hover para-color">اسم الشخص</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="16" viewBox="0 0 18 16"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -216,7 +211,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">Business</a>
+                                        <a href="#" class="primary-hover para-color">الرياضة</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="18" viewBox="0 0 18 18"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +220,7 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">January 25, 2024</a>
+                                        <a href="#" class="primary-hover para-color">25 يناير 2024</a>
                                     </li>
                                     <li><svg class="me-1" width="18" height="17" viewBox="0 0 18 17"
                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,99 +229,97 @@
                                                 fill="#25314C" />
                                         </svg>
 
-                                        <a href="#" class="primary-hover para-color">No Comments</a>
+                                        <a href="#" class="primary-hover para-color">بدون تعليقات</a>
                                     </li>
                                 </ul>
                                 <h3><a class="primary-hover" href="{{ route('blogDetails') }}">
-                                        What’s the key to successful customer journeys?
+                                        كيو فوليوبتاس نيولا باراياتيور؟
                                     </a></h3>
-                                <p class="mt-10 mb-20">Connect every moment together into engaging customer journeys.
-                                    Inside this in-depth guide, you’ll get. Five sample
-                                    customer journeys for growth, onboarding, engagement...</p>
-                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>Read More</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <p class="mt-10 mb-20">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                                    أيوسمود تيمبور
+                                    أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا ...</p>
+                                <a href="{{ route('blogDetails') }}" class="explore-btn"><span>قراءة المزيد</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                         </div>
                         <div class="pegi justify-content-center mt-80">
-                            <a href="#0"><i class="fa-regular fa-arrow-left-long"></i></a>
+                            <a href="#0"><i class="fa-regular fa-arrow-right-long"></i></a>
                             <a class="dot-pegi active" href="#0"></a>
                             <a class="dot-pegi" href="#0"></a>
                             <a class="dot-pegi" href="#0"></a>
                             <a class="dot-pegi" href="#0"></a>
-                            <a class="active" href="#0"><i class="fa-regular fa-arrow-right-long"></i></a>
+                            <a class="active" href="#0"><i class="fa-regular fa-arrow-left-long"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 order-1 order-lg-2">
                         <div class="blog-details__right-item">
                             <div class="item mb-40">
-                                <h5 class="title">Search</h5>
+                                <h5 class="title">البحث</h5>
                                 <div class="serach-bar">
                                     <input type="text" placeholder="Search">
                                     <button><i class="fa-regular fa-magnifying-glass"></i></button>
                                 </div>
                             </div>
                             <div class="item mb-40">
-                                <h5 class="title">Recent Posts</h5>
+                                <h5 class="title">المشاركات الاخيرة</h5>
                                 <ul class="single-post">
                                     <li>
                                         <div class="con">
-                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">Why Is Blog SEO
-                                                    Important?</a></h6>
-                                            <span>January 05, 2024</span>
+                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">كيو فوليوبتاس
+                                                    نيولا باراياتيور؟</a></h6>
+                                            <span>25 يناير 2024</span>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="con">
-                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">Write for humans, not
-                                                    search engines</a></h6>
-                                            <span>January 02, 2024</span>
+                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">كيو فوليوبتاس
+                                                    نيولا باراياتيور؟</a></h6>
+                                            <span>25 يناير 2024</span>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="con">
-                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">The Basics of SEO
-                                                    Content
-                                                    Writing</a></h6>
-                                            <span>December 27, 2023</span>
+                                            <h6><a href="{{ route('blogDetails') }}" class="primary-hover">كيو فوليوبتاس نيولا باراياتيور؟</a></h6>
+                                            <span>25 يناير 2024</span>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="item mb-40">
-                                <h5 class="title">Category</h5>
+                                <h5 class="title">الأقسام</h5>
                                 <ul class="category">
-                                    <li class="pt-0"><a href="#0">All</a> <span>(61)</span></li>
-                                    <li><a href="#0">Web Development</a> <span>(16)</span></li>
-                                    <li><a href="#0">Web Design</a> <span>(14)</span></li>
-                                    <li class="pb-0"><a href="#0">Keyword Research</a> <span>(09)</span></li>
+                                    <li class="pt-0"><a href="#0">الكل</a> <span>(61)</span></li>
+                                    <li><a href="#0">قسم 1</a> <span>(16)</span></li>
+                                    <li><a href="#0">قسم 2</a> <span>(14)</span></li>
+                                    <li class="pb-0"><a href="#0">البحث عن الكلمه الرئيسيه  </a> <span>(09)</span></li>
                                 </ul>
                             </div>
                             <div class="item mb-40">
-                                <h5 class="title">Popular Tags</h5>
+                                <h5 class="title">الكلمات الشعبية</h5>
                                 <div class="tags">
-                                    <a href="#0">keyword</a>
-                                    <a href="#0">research</a>
-                                    <a href="#0">information</a>
-                                    <a href="#0">website</a>
-                                    <a href="#0">page</a>
-                                    <a href="#0">technical</a>
-                                    <a href="#0">ios</a>
-                                    <a href="#0">technology</a>
-                                    <a href="#0">design</a>
-                                    <a href="#0">marketing</a>
-                                    <a href="#0">corporate</a>
-                                    <a href="#0">seo</a>
-                                    <a href="#0">tech</a>
-                                    <a href="#0">media</a>
+                                    <a href="#0">كلمة 1</a>
+                                    <a href="#0">كلمة 2</a>
+                                    <a href="#0">كلمة 3</a>
+                                    <a href="#0">كلمة 4</a>
+                                    <a href="#0">كلمة 5</a>
+                                    <a href="#0">كلمة 6</a>
+                                    <a href="#0">كلمة 7</a>
+                                    <a href="#0">كلمة 8</a>
+                                    <a href="#0">كلمة 9</a>
+                                    <a href="#0">كلمة 10</a>
+                                    <a href="#0">كلمة 11</a>
+                                    <a href="#0">كلمة 12</a>
+                                    <a href="#0">كلمة 13</a>
+                                    <a href="#0">كلمة 14</a>
                                 </div>
                             </div>
                             <div class="item">
-                                <h5 class="title">Newsletter</h5>
+                                <h5 class="title">النشرة الإخبارية</h5>
                                 <div class="serach-bar">
-                                    <input type="text" placeholder="Enter your email">
+                                    <input type="text" placeholder="أدخل بريدك الإلكتروني">
                                 </div>
-                                <button class="btn-one w-100 text-center mt-10">Subscribe<i
-                                        class="fa-regular fa-arrow-right ml-10"></i></button>
+                                <button class="btn-one w-100 text-center mt-10">اشترك معنا<i
+                                        class="fa-regular fa-arrow-left ml-10"></i></button>
                             </div>
                         </div>
                     </div>
@@ -338,21 +331,19 @@
         <!-- started area start here -->
         <section class="started-area">
             <div class="container">
-                <div class="started__item bg-image"
-                    data-background="{{ asset('assets/front/images/bg/started-bg.png') }}">
+                <div class="started__item bg-image" data-background="{{ asset('assets/front/images/bg/started-bg.png') }}">
                     <div class="section-header-two text-center mb-40">
-                        <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Unlock Your
-                            Digital Potential with <br> Marketi's SEO Solutions!</h2>
+                        <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">أطلق العنان
+                            لإمكانياتك الرياضية مع <br> حلول تحسين محركات البحث الخاصة بالاتحاد!</h2>
                         <p class="para-light-color wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                            Elevate your online presence with Marketi's trusted SEO
-                            solutions.
+                            سنساعد مشاكل العميل على تطوير رياضته بجودة عالية.
                         </p>
                     </div>
                     <div class="btn__group text-center wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-                        <a href="pricing.html" class="btn-two">Get Started<i
-                                class="fa-regular fa-arrow-right ml-10"></i></a>
-                        <a href="about.html" class="btn-three ms-4">Learn More<i
-                                class="fa-regular fa-arrow-right ml-10"></i></a>
+                        <a href="{{ route('pricing') }}" class="btn-two">اشترك معنا<i
+                                class="fa-regular fa-arrow-left ml-10"></i></a>
+                        <a href="{{ route('about') }}" class="btn-three ms-4">اقرأ المزيد<i
+                                class="fa-regular fa-arrow-left ml-10"></i></a>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    ITTIHAD
+    الاتحاد السعودي للرياضات الذهنية
 @endsection
 
 @section('style')
@@ -24,21 +24,19 @@
             </div>
             <div class="container">
                 <div class="banner__content">
-                    <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">The Digital <img
+                    <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">الاتحاد <img
                             src="{{ asset('assets/front/images/banner/banner-tittle-star.png') }}" alt="image"> <br>
-                        Marketing Agency For <span>Higher ROI</span></h1>
-                    <p class="mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Choose success
-                        with
-                        our digital marketing agency, dedicated to delivering higher
-                        ROI that propels
-                        your business to new
-                        heights.</p>
+                        السعودي للرياضات <span>الذهنية</span></h1>
+                    <p class="mt-50 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">تحت مظلة اللجنة
+                        الأولمبية السعودية يهتم بنشر هذه الرياضات في المجتمع لما لها من أهمية في تنمية المهارات الذهنية
+                        ولتطوير
+                        وصقل المواهب.</p>
                     <div class="d-flex align-items-center gap-4 mt-40">
                         <a href="{{ route('pricing') }}" class="btn-one wow fadeInDown" data-wow-delay="200ms"
-                            data-wow-duration="1000ms">Try it Now<i class="fa-regular fa-circle-arrow-right ml-10"></i></a>
+                            data-wow-duration="1000ms">معرفة اسعار الاشتراكات<i
+                                class="fa-regular fa-circle-arrow-left ml-10"></i></a>
                         <a href="{{ route('about') }}" class="explore-btn wow fadeInDown" data-wow-delay="400ms"
-                            data-wow-duration="1000ms"><span>Explore More</span> <i
-                                class="fa-regular fa-arrow-right"></i></a>
+                            data-wow-duration="1000ms"><span>من نحن </span> <i class="fa-regular fa-arrow-left"></i></a>
                     </div>
                 </div>
             </div>
@@ -48,7 +46,7 @@
         <!-- Brand area start here -->
         <div class="brand-area pt-70">
             <div class="container">
-                <h5 class="brand__title mb-40">Used by World Leading Companies</h5>
+                <h5 class="brand__title mb-40">شركاء العمل</h5>
                 <div class="swiper brand__slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -90,31 +88,32 @@
                     <div class="col-xl-6">
                         <div class="about__right-item">
                             <div class="section-header">
-                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">About us
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">من نحن
                                 </h5>
-                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Why <span
-                                        class="primary-color">Marketi</span> Should Be Your Top Choice</h2>
-                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Choose
-                                    Marketi
-                                    for unparalleled digital success – where expertise, <br> innovation,
-                                    and
-                                    strategic brilliance converge to
-                                    elevate your <br> business to new heights. <a href="{{ route('about') }}"
-                                        class="secondary-color fw-700 primary-hover">Read
-                                        More</a></p>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">لماذا <span
+                                        class="primary-color">يجب</span> أن نكون خيارك الأفضل</h2>
+                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                                    تحت مظلة اللجنة الأولمبية السعودية يهتم بنشر هذه الرياضات في المجتمع لما لها من أهمية في
+                                    تنمية المهارات الذهنية ولتطوير
+                                    وصقل المواهب. ولتحقيق هذه الأهداف سيقوم الإتحاد ببذل الجهد لتحقيق البيئة المناسبة لإجادة
+                                    وكذلك الاستمتاع بممارسة هذه الرياضات وتشمل ألعاب ورقية مثل اليريدج البلوت الكونكان
+                                    والتركس وألعاب لوحية مثل جو سودوكو . ت س ج . الدامه وكذلك ام ت ج .
+                                    <a href="{{ route('about') }}" class="secondary-color fw-700 primary-hover">قراءة
+                                        المزيد</a>
+                                </p>
                             </div>
                             <div class="about__counter mt-40">
                                 <div class="coun-item wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1000ms">
                                     <h3><span class="count">12</span>+</h3>
-                                    <p>Years of experience</p>
+                                    <p>سنة من الخبرة</p>
                                 </div>
                                 <div class="coun-item wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
                                     <h3><span class="count">10</span>K</h3>
-                                    <p>Completed Projects</p>
+                                    <p>مشتركين</p>
                                 </div>
                                 <div class="coun-item wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-                                    <h3><span class="count">5</span>K</h3>
-                                    <p>Trusted Customers</p>
+                                    <h3><span class="count">8</span></h3>
+                                    <p>العاب ذهنية</p>
                                 </div>
                             </div>
                         </div>
@@ -132,35 +131,40 @@
                         <div class="service__icon mb-25">
                             <img src="{{ asset('assets/front/images/icon/service-icon1.png') }}" alt="icon">
                         </div>
-                        <h3>Data-Driven Decision</h3>
-                        <p>Harness the power of data with our analytics-driven approach. We analyze, interpret,
-                            and
-                            apply insights to refine and
-                            optimize your campaigns for maximum impact.</p>
-                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>Explore More</span> <i
-                                class="fa-regular fa-arrow-right"></i></a>
+                        <h3>خدمة 1</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . </p>
+                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>استكشاف المزيد</span> <i
+                                class="fa-regular fa-arrow-left"></i></a>
                     </div>
                     <div class="service__item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="service__icon mb-25">
                             <img src="{{ asset('assets/front/images/icon/service-icon2.png') }}" alt="icon">
                         </div>
-                        <h3>Multi-Channel Expertise</h3>
-                        <p>Our team is well-versed in diverse digital channels, from social media and to SEO and paid
-                            advertising, providing you
-                            with a comprehensive online presence.</p>
-                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>Explore More</span> <i
-                                class="fa-regular fa-arrow-right"></i></a>
+                        <h3>خدمة 2</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . </p>
+                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>استكشاف المزيد</span> <i
+                                class="fa-regular fa-arrow-left"></i></a>
                     </div>
                     <div class="service__item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
                         <div class="service__icon mb-25">
                             <img src="{{ asset('assets/front/images/icon/service-icon3.png') }}" alt="icon">
                         </div>
-                        <h3>Social Media Mastery</h3>
-                        <p>Leverage the full potential of social media. We develop and implement social media strategies
-                            to enhance brand
-                            visibility, and drive meaningful interactions.</p>
-                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>Explore More</span> <i
-                                class="fa-regular fa-arrow-right"></i></a>
+                        <h3>خدمة 3</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+                            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . </p>
+                        <a href="{{ route('serviceDetails') }}" class="explore-btn mt-15"><span>استكشاف المزيد</span> <i
+                                class="fa-regular fa-arrow-left"></i></a>
                     </div>
                 </div>
             </div>
@@ -172,83 +176,83 @@
             <div class="container">
                 <div class="section-header__wrp mb-60">
                     <div class="section-header">
-                        <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Our
-                            Services</h5>
+                        <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">خدماتنا</h5>
                         <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><span
-                                class="light-underline">Services</span> we’re offering
-                        </h2>
+                                class="light-underline"> الخدمات</span> التي نقدمها</h2>
                     </div>
                     <p class="para-light-color wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                        Discover
-                        a spectrum of
-                        cutting-edge digital marketing
-                        services <br>
-                        tailored
-                        to elevate your online
-                        presence, drive
-                        engagement.p>
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا <br>
+                        يوت انيم أد مينيم فينايم,كيواس نوستريد
+                        أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . </p>
                 </div>
                 <div class="offer__item">
                     <ul>
                         <li class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1000ms">
-                            <a class="offer-title" href="{{ route('serviceDetails') }}">Analytics and Data Insights</a>
-                            <i class="fa-light offer-icon fa-arrow-right"></i>
+                            <a class="offer-title" href="{{ route('serviceDetails') }}">خدمة 1</a>
+                            <i class="fa-light offer-icon fa-arrow-left"></i>
                             <div class="offer__image-wrp">
                                 <a class="offer__image d-block image" href="{{ route('serviceDetails') }}">
                                     <img src="{{ asset('assets/front/images/offer/offer-image1.png') }}" alt="image">
-                                    <div class="btn-one">Choose Service<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></div>
+                                    <div class="btn-one">اختر الخدمة<i class="fa-regular fa-circle-arrow-left ml-10"></i>
+                                    </div>
                                 </a>
                             </div>
-                            <p>Elevate your brand with impactful social media strategies.</p>
+                            <p>سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                دولاريمكيو لايودانتيوم .</p>
                         </li>
                         <li class="wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
-                            <a class="offer-title" href="{{ route('serviceDetails') }}">Content Marketing</a>
-                            <i class="fa-light offer-icon fa-arrow-right"></i>
+                            <a class="offer-title" href="{{ route('serviceDetails') }}">خدمة 2</a>
+                            <i class="fa-light offer-icon fa-arrow-left"></i>
                             <div class="offer__image-wrp">
                                 <a class="offer__image d-block image" href="{{ route('serviceDetails') }}">
                                     <img src="{{ asset('assets/front/images/offer/offer-image2.png') }}" alt="image">
-                                    <div class="btn-one">Choose Service<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></div>
+                                    <div class="btn-one">اختر الخدمة<i class="fa-regular fa-circle-arrow-left ml-10"></i>
+                                    </div>
                                 </a>
                             </div>
-                            <p>Elevate your brand with impactful social media strategies.</p>
+                            <p>سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                دولاريمكيو لايودانتيوم .</p>
                         </li>
                         <li class="wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-                            <a class="offer-title" href="{{ route('serviceDetails') }}">Search Engine Marketing.</a>
-                            <i class="fa-light offer-icon fa-arrow-right"></i>
+                            <a class="offer-title" href="{{ route('serviceDetails') }}">خدمة 3</a>
+                            <i class="fa-light offer-icon fa-arrow-left"></i>
                             <div class="offer__image-wrp">
                                 <a class="offer__image d-block image" href="{{ route('serviceDetails') }}">
                                     <img src="{{ asset('assets/front/images/offer/offer-image3.png') }}" alt="image">
-                                    <div class="btn-one">Choose Service<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></div>
+                                    <div class="btn-one">اختر الخدمة<i class="fa-regular fa-circle-arrow-left ml-10"></i>
+                                    </div>
                                 </a>
                             </div>
-                            <p>Elevate your brand with impactful social media strategies.</p>
+                            <p>سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                دولاريمكيو لايودانتيوم .</p>
                         </li>
                         <li class="wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1000ms">
-                            <a class="offer-title" href="{{ route('serviceDetails') }}">Social Media Marketing</a>
-                            <i class="fa-light offer-icon fa-arrow-right"></i>
+                            <a class="offer-title" href="{{ route('serviceDetails') }}">خدمة 4</a>
+                            <i class="fa-light offer-icon fa-arrow-left"></i>
                             <div class="offer__image-wrp">
                                 <a class="offer__image d-block image" href="{{ route('serviceDetails') }}">
                                     <img src="{{ asset('assets/front/images/offer/offer-image4.png') }}" alt="image">
-                                    <div class="btn-one">Choose Service<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></div>
+                                    <div class="btn-one">اختر الخدمة<i class="fa-regular fa-circle-arrow-left ml-10"></i>
+                                    </div>
                                 </a>
                             </div>
-                            <p>Elevate your brand with impactful social media strategies.</p>
+                            <p>سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                دولاريمكيو لايودانتيوم .</p>
                         </li>
                         <li class="wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1000ms">
-                            <a class="offer-title" href="{{ route('serviceDetails') }}">Pay-Per-Click Advertising</a>
-                            <i class="fa-light offer-icon fa-arrow-right"></i>
+                            <a class="offer-title" href="{{ route('serviceDetails') }}">خدمة 5</a>
+                            <i class="fa-light offer-icon fa-arrow-left"></i>
                             <div class="offer__image-wrp">
                                 <a class="offer__image d-block image" href="{{ route('serviceDetails') }}">
                                     <img src="{{ asset('assets/front/images/offer/offer-image5.png') }}" alt="image">
-                                    <div class="btn-one">Choose Service<i
-                                            class="fa-regular fa-circle-arrow-right ml-10"></i></div>
+                                    <div class="btn-one">اختر الخدمة<i class="fa-regular fa-circle-arrow-left ml-10"></i>
+                                    </div>
                                 </a>
                             </div>
-                            <p>Elevate your brand with impactful social media strategies.</p>
+                            <p>سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                دولاريمكيو لايودانتيوم .</p>
                         </li>
                     </ul>
                 </div>
@@ -261,16 +265,15 @@
             <div class="container">
                 <div class="section-header__wrp mb-90">
                     <div class="section-header">
-                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">how do we work</h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Our work
-                            <span>process</span>
+                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">كيف نعمل</h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">عملنا
+                            <span>عملية</span>
                         </h2>
                     </div>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Discover a spectrum of
-                        cutting-edge digital marketing services <br> tailored to elevate your
-                        online
-                        presence, drive
-                        engagement.</p>
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">لوريم ايبسوم دولار سيت أميت
+                        ,كونسيكتيتور أدايبا يسكينج أليايت <br> أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت
+                        ان كيولبا
+                        كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.</p>
                 </div>
                 <div class="custom-row process__wrp">
                     <div class="process__line">
@@ -280,29 +283,29 @@
                         <div class="process__icon">
                             <img src="{{ asset('assets/front/images/icon/process-icon1.png') }}" alt="icon">
                         </div>
-                        <h3 class="mt-20">Briefing</h3>
-                        <p>Harness the power of data with our analytics-driven approach.</p>
+                        <h3 class="mt-20">توجيهات</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.</p>
                     </div>
                     <div class="process__item">
                         <div class="process__icon">
                             <img src="{{ asset('assets/front/images/icon/process-icon2.png') }}" alt="icon">
                         </div>
-                        <h3 class="mt-20">Idea Generating</h3>
-                        <p>Harness the power of data with our analytics-driven approach.</p>
+                        <h3 class="mt-20">توليد الفكرة</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.</p>
                     </div>
                     <div class="process__item">
                         <div class="process__icon">
                             <img src="{{ asset('assets/front/images/icon/process-icon3.png') }}" alt="icon">
                         </div>
-                        <h3 class="mt-20">Processing</h3>
-                        <p>Harness the power of data with our analytics-driven approach.</p>
+                        <h3 class="mt-20">معالجة</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.</p>
                     </div>
                     <div class="process__item">
                         <div class="process__icon">
                             <img src="{{ asset('assets/front/images/icon/process-icon4.png') }}" alt="icon">
                         </div>
-                        <h3 class="mt-20">Finishing</h3>
-                        <p>Harness the power of data with our analytics-driven approach.</p>
+                        <h3 class="mt-20"> الإنهاء</h3>
+                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.</p>
                     </div>
                 </div>
             </div>
@@ -313,16 +316,13 @@
         <section class="team-area pb-140">
             <div class="container">
                 <div class="section-header mb-90 text-center">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Exceptional Team</h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Meet with our
-                        <span>team</span>
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">فريق استثنائي</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">اجتمع مع
+                        <span>فريقنا</span>
                     </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Discover the driving
-                        force
-                        behind Marketi. Working collaboratively to deliver <br> innovative
-                        digital
-                        marketing solutions
-                        that elevate your brand.</p>
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">لوريم ايبسوم دولار سيت أميت
+                        ,كونسيكتيتور أدايبا يسكينج أليايت <br> سيت دو أيوسمود تيمبور
+                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                 </div>
                 <div class="swiper team__slider">
                     <div class="swiper-wrapper">
@@ -338,9 +338,9 @@
                                         <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
                                     </div>
                                 </div>
-                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}" class="primary-hover fw-700">Kawser
-                                        Ahmed</a></h5>
-                                <span>Chief Executive Officer</span>
+                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}"
+                                        class="primary-hover fw-700">فريق العمل 1</a></h5>
+                                <span>وظيفة 1</span>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -355,9 +355,9 @@
                                         <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
                                     </div>
                                 </div>
-                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}" class="primary-hover fw-700">Marcus
-                                        Haven</a></h5>
-                                <span>Creative Lead</span>
+                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}"
+                                        class="primary-hover fw-700">فريق العمل 2</a></h5>
+                                <span>وظيفة 2</span>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -372,9 +372,9 @@
                                         <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
                                     </div>
                                 </div>
-                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}" class="primary-hover fw-700">Mises
-                                        Falguni</a></h5>
-                                <span>Digital Strategist</span>
+                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}"
+                                        class="primary-hover fw-700">فريق العمل 3</a></h5>
+                                <span>وظيفة 3</span>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -389,16 +389,16 @@
                                         <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
                                     </div>
                                 </div>
-                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}" class="primary-hover fw-700">Olivia
-                                        Riday</a></h5>
-                                <span>Client Relations Manager</span>
+                                <h5 class="mt-15"><a href="{{ route('teamDetails') }}"
+                                        class="primary-hover fw-700">فريق العمل 4</a></h5>
+                                <span>وظيفة 4</span>
                             </div>
                         </div>
                     </div>
                     <div class="swiper__info mt-5">
-                        <button class="team__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
+                        <button class="team__arry-prev"><i class="fa-regular fa-arrow-right-long"></i></button>
                         <div class="dot team__dot"></div>
-                        <button class="team__arry-next active"><i class="fa-regular fa-arrow-right-long"></i></button>
+                        <button class="team__arry-next active"><i class="fa-regular fa-arrow-left-long"></i></button>
                     </div>
                 </div>
             </div>
@@ -412,24 +412,23 @@
                     <div class="col-lg-6">
                         <div class="testimonial__left-item">
                             <div class="section-header">
-                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Clients
-                                    Testimonial</h5>
-                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Client’s
-                                    <span>speeches</span> <br> about marketi
+                                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">شهادة المشتركين
+                                </h5>
+                                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">كلمات
+                                    <span>المشتركين</span> <br> عن الاتحاد
                                 </h2>
-                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Our clients
-                                    share their experiences with Marketi, expressing how our digital
-                                    marketing
-                                    expertise has not only met but
-                                    exceeded their expectations, fostering success and growth for their businesses.</p>
+                                <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">"سيت
+                                    يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                    دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري فيرأتاتيس ايت
+                                    كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو."</p>
                             </div>
                             <a href="{{ route('pricing') }}" class="btn-one mt-30 wow fadeInUp" data-wow-delay="600ms"
-                                data-wow-duration="1000ms">Try it Now<i
-                                    class="fa-regular fa-circle-arrow-right ml-10"></i></a>
+                                data-wow-duration="1000ms">اشترك الآن<i
+                                    class="fa-regular fa-circle-arrow-left ml-10"></i></a>
                             <div class="testimonial-user d-flex gap-2 flex-wrap pt-30 bor-top mt-30 wow fadeInDown"
                                 data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <img src="{{ asset('assets/front/images/testimonial/user.png') }}" alt="">
-                                <p>Satisfied clients of Marketi</p>
+                                <p>عملاء راضون</p>
                             </div>
                         </div>
                     </div>
@@ -438,19 +437,18 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testimonial__right-item">
-                                        <p>"Working with Marketi has been a right and good investment for our business.
-                                            And Their
-                                            targeted campaigns and
-                                            data-driven approach have not only increased our ROI but also provide
-                                            valuable insights
-                                            for future growth."</p>
+                                        <p>"سيت
+                                            يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                            دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري
+                                            فيرأتاتيس ايت
+                                            كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو."</p>
                                         <div class="testimonial-info">
                                             <div class="d-flex align-items-center gap-4">
                                                 <img src="{{ asset('assets/front/images/testimonial/testimonial-image1.png') }}"
                                                     alt="image">
                                                 <div class="testimonial-admin">
-                                                    <h4>Kawser Ahmed</h4>
-                                                    <span>Chief Executive Officer</span>
+                                                    <h4>مشترك 1</h4>
+                                                    <span>رياضة 1</span>
                                                 </div>
                                             </div>
                                             <div class="star d-flex gap-2">
@@ -465,19 +463,18 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__right-item">
-                                        <p>"Working with Marketi has been a right and good investment for our business.
-                                            And Their
-                                            targeted campaigns and
-                                            data-driven approach have not only increased our ROI but also provide
-                                            valuable insights
-                                            for future growth."</p>
+                                        <p>"سيت
+                                            يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                            دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري
+                                            فيرأتاتيس ايت
+                                            كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو."</p>
                                         <div class="testimonial-info">
                                             <div class="d-flex align-items-center gap-4">
                                                 <img src="{{ asset('assets/front/images/testimonial/testimonial-image2.png') }}"
                                                     alt="image">
                                                 <div class="testimonial-admin">
-                                                    <h4>Suborna Tarchera</h4>
-                                                    <span>Web Designer</span>
+                                                    <h4>مشترك 2</h4>
+                                                    <span>رياضة 2</span>
                                                 </div>
                                             </div>
                                             <div class="star d-flex gap-2">
@@ -492,19 +489,18 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__right-item">
-                                        <p>"Working with Marketi has been a right and good investment for our business.
-                                            And Their
-                                            targeted campaigns and
-                                            data-driven approach have not only increased our ROI but also provide
-                                            valuable insights
-                                            for future growth."</p>
+                                        <p>"سيت
+                                            يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                            دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري
+                                            فيرأتاتيس ايت
+                                            كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو."</p>
                                         <div class="testimonial-info">
                                             <div class="d-flex align-items-center gap-4">
                                                 <img src="{{ asset('assets/front/images/testimonial/testimonial-image3.png') }}"
                                                     alt="image">
                                                 <div class="testimonial-admin">
-                                                    <h4>Alex Pranto</h4>
-                                                    <span>Software Engineer</span>
+                                                    <h4>مشترك 3</h4>
+                                                    <span>رياضة 3</span>
                                                 </div>
                                             </div>
                                             <div class="star d-flex gap-2">
@@ -519,19 +515,18 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__right-item">
-                                        <p>"Working with Marketi has been a right and good investment for our business.
-                                            And Their
-                                            targeted campaigns and
-                                            data-driven approach have not only increased our ROI but also provide
-                                            valuable insights
-                                            for future growth."</p>
+                                        <p>"سيت
+                                            يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت فوليبتاتيم أكيسأنتييوم
+                                            دولاريمكيو لايودانتيوم,توتام ريم أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري
+                                            فيرأتاتيس ايت
+                                            كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو."</p>
                                         <div class="testimonial-info">
                                             <div class="d-flex align-items-center gap-4">
                                                 <img src="{{ asset('assets/front/images/testimonial/testimonial-image4.png') }}"
                                                     alt="image">
                                                 <div class="testimonial-admin">
-                                                    <h4>Mahmod Arif</h4>
-                                                    <span>Product Manager</span>
+                                                    <h4>مشترك 4</h4>
+                                                    <span>رياضة 4</span>
                                                 </div>
                                             </div>
                                             <div class="star d-flex gap-2">
@@ -547,10 +542,10 @@
                             </div>
                         </div>
                         <div class="swiper__info mt-4">
-                            <button class="testimonial__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
+                            <button class="testimonial__arry-prev"><i class="fa-regular fa-arrow-right-long"></i></button>
                             <div class="dot testimonial__dot"></div>
                             <button class="testimonial__arry-next active"><i
-                                    class="fa-regular fa-arrow-right-long"></i></button>
+                                    class="fa-regular fa-arrow-left-long"></i></button>
                         </div>
                     </div>
                 </div>
@@ -559,7 +554,7 @@
         <!-- Testimonial area end here -->
 
         <!-- Faq area start here -->
-        <section class="faq-area pt-140 pb-140">
+        {{-- <section class="faq-area pt-140 pb-140">
             <div class="container">
                 <div class="section-header__wrp mb-90">
                     <div class="section-header">
@@ -641,7 +636,7 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -702,7 +697,7 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -763,14 +758,14 @@
                                 <div class="swiper__info m-0">
                                     <button class="faq__arry-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
                                     <button class="faq__arry-next active"><i
-                                            class="fa-regular fa-arrow-right-long"></i></button>
+                                            class="fa-regular fa-arrow-left-long"></i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Faq area end here -->
 
         <!-- Talk area start here -->
@@ -780,52 +775,48 @@
                 <div class="row g-4">
                     <div class="col-lg-7">
                         <div class="section-header">
-                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Get
-                                started with us</h5>
+                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">ابدأ
+                                معنا</h5>
                             <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                                Start
-                                Conversation to <span class="light-underline">Skyrocket</span>
-                                Your Business</h2>
+                                ابدأ المحادثة مع <span class="light-underline">خدمة عملائنا</span></h2>
                             <p class="para-light-color wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                                Schedule a free consultation with our experts. Uncover
-                                opportunities <br>
-                                and take the first
-                                step towards digital success</p>
+                                لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت <br>
+                                سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                             <div class="d-flex align-items-center gap-4 mt-40 wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1000ms">
-                                <a href="{{ route('contact') }}" class="btn-one">Let’s Talk<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></a>
-                                <span class="para-light-color">Or</span>
-                                <a href="{{ route('book') }}" class="explore-btn-light"><span>Book A Demo</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('contact') }}" class="btn-one">لنتواصل<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></a>
+                                <span class="para-light-color">أو</span>
+                                <a href="{{ route('book') }}" class="explore-btn-light"><span>احجز معنا</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="contact__form">
-                            <h3 class="text-capitalize mb-30 text-center">get a free consultation with marketing our
-                                Expert</h3>
+                            <h3 class="text-capitalize mb-30 text-center">احصل على استشارة مجانية مع خبرائنا</h3>
                             <form action="#">
-                                <input type="text" placeholder="Company Name">
+                                <input type="text" placeholder="اسم الرياضة">
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="First Name*">
+                                        <input type="text" placeholder="الاسم الاول*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Last Name*">
+                                        <input type="text" placeholder="الاسم الاخير*">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="Email Address*">
+                                        <input type="text" placeholder="البريد الإلكتروني*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Phone Number*">
+                                        <input type="text" placeholder="رقم الهاتف*">
                                     </div>
                                 </div>
-                                <textarea name="#" id="#" placeholder="Message"></textarea>
-                                <button class="btn-one transition">Submit<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></button>
+                                <textarea name="#" id="#" placeholder="الرسالة*"></textarea>
+                                <button class="btn-one transition">تأكيد<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></button>
                             </form>
                         </div>
                     </div>

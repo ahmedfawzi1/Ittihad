@@ -7,10 +7,13 @@
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
                         <div class="footer__item">
                             <a href="/" class="logo mb-20">
-                                <img src="{{ asset('assets/front/images/logo/logo-light.svg') }}" alt="image">
+                                <img src="{{ asset('assets/front/images/logo/Picture1.jpg') }}" alt="image">
                             </a>
-                            <p>Optimize your success with our ROI-driven digital marketing
-                                agency.</p>
+                            <p>تحت مظلة اللجنة
+                                الأولمبية السعودية يهتم بنشر هذه الرياضات في المجتمع لما لها من أهمية في تنمية المهارات
+                                الذهنية
+                                ولتطوير
+                                وصقل المواهب.</p>
                             <div class="social-icon mt-20">
                                 <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
                                 <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -19,58 +22,58 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-6 wow fadeInUp" data-wow-delay="200ms"
-                        data-wow-duration="1000ms">
+                    <div class="col-lg-2 col-sm-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="footer__item">
-                            <h4 class="title mb-20 text-white">Company</h4>
+                            <h4 class="title mb-20 text-white">الإتحاد</h4>
                             <ul class="link">
                                 <li>
-                                    <a href="{{ route('about') }}">About Us</a>
+                                    <a href="{{ route('about') }}">من نحن</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('service') }}">Services</a>
+                                    <a href="{{ route('service') }}">خدماتنا</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('blog') }}">Blog</a>
+                                    <a href="{{ route('blog') }}">الأخبار</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('pricing') }}">Pricing</a>
+                                    <a href="{{ route('pricing') }}">الأشتراكات</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('book') }}">المسابقات</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-6 wow fadeInUp" data-wow-delay="400ms"
-                        data-wow-duration="1000ms">
+                    <div class="col-lg-2 col-sm-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
                         <div class="footer__item">
-                            <h4 class="title mb-20 text-white">Support</h4>
+                            <h4 class="title mb-20 text-white">الدعم</h4>
                             <ul class="link">
                                 <li>
-                                    <a href="{{ route('contact') }}">Contact Us</a>
+                                    <a href="{{ route('contact') }}">تواصل معنا</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('book') }}">Book A Demo</a>
+                                    <a href="{{ route('book') }}">احجز معنا</a>
                                 </li>
                                 <li>
-                                    <a href="error.html">Privacy Policy</a>
+                                    <a href="error.html">سياسة الخصوصية</a>
                                 </li>
                                 <li>
-                                    <a href="error.html">Terms Conditions</a>
+                                    <a href="error.html">البنود و الظروف</a>
                                 </li>
                                 <li>
-                                    <a href="error.html">Cookies</a>
+                                    <a href="error.html">كوكيز</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms"
-                        data-wow-duration="1000ms">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                         <div class="footer__item">
-                            <h4 class="title mb-20 text-white">Join our Newsletter</h4>
+                            <h4 class="title mb-20 text-white">اشترك في صحيفتنا الإخبارية</h4>
                             <div class="newsletter">
-                                <input type="text" placeholder="Enter your email">
-                                <button><i class="fa-regular fa-circle-arrow-right"></i></button>
+                                <input type="text" placeholder="أدخل بريدك الإلكتروني">
+                                <button><i class="fa-regular fa-circle-arrow-left"></i></button>
                             </div>
-                            <p class="mt-4">We will send you weekly updates for your better Product management.
+                            <p class="mt-4">سوف نرسل لك تحديثات أسبوعية لإدارة رياضتك بشكل أفضل.
                             </p>
                         </div>
                     </div>
@@ -79,8 +82,10 @@
         </div>
     </div>
     <div class="footer__copytext">
-        <p class="wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1000ms">&copy; All Copyright 2024 by
-            <a href="#0" class="primary-hover">Marketi. Inc.</a></p>
+        <p class="wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1000ms">&copy; جميع حقوق الطبع والنشر 2024
+            بواسطة
+            <a href="#0" class="primary-hover">الإتحادالسعودي للرياضات الذهنية</a>
+        </p>
     </div>
 </footer>
 <!-- Footer area end here -->

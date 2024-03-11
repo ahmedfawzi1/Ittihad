@@ -1,7 +1,7 @@
 @extends('front.include.master')
 
 @section('title')
-    Pricing
+    الاشتراكات
 @stop
 
 @section('style')
@@ -19,16 +19,12 @@
             data-background="{{ asset('assets/front/images/bg/banner-inner.png') }}">
             <div class="container">
                 <div class="banner-inner__content">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">Home</a> /
-                        <span>Pricing Plan</span></h5>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Pricing Plan
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms"><a href="/">لرئيسية</a> /
+                        <span>خطة الأسعار</span></h5>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">خطة الأسعار
                     </h2>
-                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">We
-                        will help a client's problems to develop the
-                        products they have
-                        with
-                        high quality Change the
-                        appearance.</p>
+                    <p class="para-light-color mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">سنساعد
+                        مشاكل العميل على تطوير رياضته بجودة عالية.</p>
                 </div>
             </div>
         </section>
@@ -38,22 +34,20 @@
         <section class="pricing-area pt-120 pb-120">
             <div class="container">
                 <div class="section-header-two text-center mb-40">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Pricing Plan</h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Choose Your best plan
+                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">خطط الاشتراكات</h5>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">اختر افضل خطة تناسبك
                     </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Discover tailored SEO
-                        plans
-                        to effortlessly boost your online <br> presence and achieve digital
-                        success.</p>
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">لوريم ايبسوم دولار سيت أميت
+                        ,كونسيكتيتور أدايبا يسكينج أليايت <br> سيت دو أيوسمود تيمبور
+                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                 </div>
                 <div class="pricing__tab wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
                     <img class="pricing-save" src="{{ asset('assets/front/images/icon/save.png') }}" alt="icon">
                     <ul class="nav nav-tabs">
                         <li class="nav-item"><a class="nav-link" id="tab-item1" data-bs-toggle="tab"
-                                data-bs-target="#tab-content1" href="tab-content1.html">Billed Annually</a></li>
+                                data-bs-target="#tab-content1" href="tab-content1.html">اشراك سنوي</a></li>
                         <li class="nav-item"><a class="nav-link active" id="tab-item2" data-bs-target="#tab-content2"
-                                data-bs-toggle="tab" href="tab-content2.html">Billed
-                                Monthly</a></li>
+                                data-bs-toggle="tab" href="tab-content2.html">اشتراك شهري</a></li>
                     </ul>
                 </div>
                 <div class="tab-content">
@@ -62,11 +56,11 @@
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
-                                        <h5 class="pricing-name">Free</h5>
-                                        <h2>$0 <span>Per user/year</span></h2>
-                                        <p>Great for individuals and small projects.</p>
+                                        <h5 class="pricing-name">مجاني</h5>
+                                        <h2> 0 ريال سعودي <span>لكل مستخدم/سنة</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -75,7 +69,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Basic on-page optimization
+                                            التحسين الأساسي على الصفحة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -84,7 +78,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Monthly performance summary
+                                            ملخص الأداء الشهري
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -93,25 +87,25 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Limited keyword analysis
+                                            تحليل محدود للنشاطات الرئيسية
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two active w-100 text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two active w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="pricing-name">Premium</h5>
+                                            <h5 class="pricing-name">غالي</h5>
                                             <img src="{{ asset('assets/front/images/icon/popular.png') }}"
                                                 alt="icon">
                                         </div>
-                                        <h2>$999 <span>/ Year</span></h2>
-                                        <p>Perfect for growing businesses.</p>
+                                        <h2>999 ريال سعودي<span>/ سنوي</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -120,7 +114,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            In-depth keyword research
+                                            بحث متعمق عن الكلمات الرئيسية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -129,7 +123,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Bi-weekly performance reports
+                                            تقارير الأداء نصف الأسبوعية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -138,7 +132,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Comprehensive page optimization
+                                            تحسين شامل للصفحة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -147,21 +141,21 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Email support Only
+                                            دعم البريد الإلكتروني فقط
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two w-100 text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
-                                        <h5 class="pricing-name">Enterprise</h5>
-                                        <h2>$9999 <span>/ Year</span></h2>
-                                        <p>Tailored solutions for large enterprises.</p>
+                                        <h5 class="pricing-name">مَشرُوع</h5>
+                                        <h2>9999 ريال سعودي <span>/ سنوي</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -170,7 +164,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Extensive keyword research
+                                            بحث واسع النطاق عن الكلمات الرئيسية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -179,7 +173,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Customized SEO strategy
+                                            استراتيجية تحسين محركات البحث المخصصة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -188,7 +182,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Comprehensive competitor analysis
+                                            تحليل شامل للمنافسين
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -197,7 +191,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Advanced page optimization
+                                            تحسين الصفحة المتقدمة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -206,11 +200,11 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Priority email and phone support
+                                            أولوية البريد الإلكتروني والدعم عبر الهاتف
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two active w-100 text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two active w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -220,11 +214,11 @@
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
-                                        <h5 class="pricing-name">Free</h5>
-                                        <h2>$0 <span>Per user/month</span></h2>
-                                        <p>Great for individuals and small projects.</p>
+                                        <h5 class="pricing-name">مجاني</h5>
+                                        <h2> 0 ريال سعودي <span>لكل مستخدم/سنة</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -233,7 +227,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Basic on-page optimization
+                                            التحسين الأساسي على الصفحة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -242,7 +236,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Monthly performance summary
+                                            ملخص الأداء الشهري
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -251,25 +245,25 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Limited keyword analysis
+                                            تحليل محدود للنشاطات الرئيسية
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two w-100 active text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two active w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h5 class="pricing-name">Premium</h5>
+                                            <h5 class="pricing-name">غالي</h5>
                                             <img src="{{ asset('assets/front/images/icon/popular.png') }}"
                                                 alt="icon">
                                         </div>
-                                        <h2>$99 <span>Per user/month</span></h2>
-                                        <p>Perfect for growing businesses.</p>
+                                        <h2>999 ريال سعودي<span>/ سنوي</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -278,7 +272,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            In-depth keyword research
+                                            بحث متعمق عن الكلمات الرئيسية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -287,7 +281,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Bi-weekly performance reports
+                                            تقارير الأداء نصف الأسبوعية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -296,7 +290,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Comprehensive page optimization
+                                            تحسين شامل للصفحة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -305,21 +299,21 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Email support Only
+                                            دعم البريد الإلكتروني فقط
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two w-100 text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-4">
                                 <div class="pricing__item">
                                     <div class="pricing__head">
-                                        <h5 class="pricing-name">Enterprise</h5>
-                                        <h2>$999 <span>/ Month</span></h2>
-                                        <p>Tailored solutions for large enterprises.</p>
+                                        <h5 class="pricing-name">مَشرُوع</h5>
+                                        <h2>9999 ريال سعودي <span>/ سنوي</span></h2>
+                                        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت .</p>
                                     </div>
-                                    <h6>Core Features</h6>
+                                    <h6>الميزات الأساسية</h6>
                                     <ul>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -328,7 +322,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Extensive keyword research
+                                            بحث واسع النطاق عن الكلمات الرئيسية
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -337,7 +331,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Customized SEO strategy
+                                            استراتيجية تحسين محركات البحث المخصصة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -346,7 +340,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Comprehensive competitor analysis
+                                            تحليل شامل للمنافسين
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -355,7 +349,7 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Advanced page optimization
+                                            تحسين الصفحة المتقدمة
                                         </li>
                                         <li>
                                             <svg class="mr-10" width="20" height="20" viewBox="0 0 20 20"
@@ -364,11 +358,11 @@
                                                     d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.03 8.20001L9.35999 12.86C9.21999 13.01 9.02999 13.08 8.82999 13.08C8.63999 13.08 8.44999 13.01 8.29999 12.86L5.97 10.53C5.68 10.24 5.68 9.75997 5.97 9.46997C6.26 9.17997 6.74 9.17997 7.03 9.46997L8.82999 11.27L12.97 7.14001C13.26 6.84001 13.74 6.84001 14.03 7.14001C14.32 7.43001 14.32 7.90001 14.03 8.20001Z"
                                                     fill="#B8CACB" />
                                             </svg>
-                                            Priority email and phone support
+                                            أولوية البريد الإلكتروني والدعم عبر الهاتف
                                         </li>
                                     </ul>
-                                    <a href="#0" class="btn-two active w-100 text-center mt-30">Choose Package<i
-                                            class="fa-regular fa-arrow-right ml-10"></i></a>
+                                    <a href="#0" class="btn-two active w-100 text-center mt-30">اختر الحزمة<i
+                                            class="fa-regular fa-arrow-left ml-10"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +373,7 @@
         <!-- Pricing area end here -->
 
         <!-- FAQ area start here -->
-        <section class="faq-two-area pt-120 pb-120 inner-sub-bg">
+        {{-- <section class="faq-two-area pt-120 pb-120 inner-sub-bg">
             <div class="container">
                 <div class="section-header-two text-center mb-80">
                     <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">FAQ</h5>
@@ -492,7 +486,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- FAQ area end here -->
 
         <!-- Talk area start here -->
@@ -502,51 +496,48 @@
                 <div class="row g-4">
                     <div class="col-lg-7">
                         <div class="section-header">
-                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">Get
-                                started with us</h5>
-                            <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Start
-                                Conversation to <span class="light-underline">Skyrocket</span>
-                                Your Business</h2>
+                            <h5 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms">ابدأ
+                                معنا</h5>
+                            <h2 class="text-white wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                ابدأ المحادثة مع <span class="light-underline">خدمة عملائنا</span></h2>
                             <p class="para-light-color wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                                Schedule a free consultation with our experts. Uncover
-                                opportunities <br>
-                                and take the first
-                                step towards digital success</p>
+                                لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت <br>
+                                سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
                             <div class="d-flex align-items-center gap-4 mt-40 wow fadeInDown" data-wow-delay="200ms"
                                 data-wow-duration="1000ms">
-                                <a href="#0" class="btn-one">Let’s Talk<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></a>
-                                <span class="para-light-color">Or</span>
-                                <a href="#0" class="explore-btn-light"><span>Book A Demo</span> <i
-                                        class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('contact') }}" class="btn-one">لنتواصل<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></a>
+                                <span class="para-light-color">أو</span>
+                                <a href="{{ route('book') }}" class="explore-btn-light"><span>احجز معنا</span> <i
+                                        class="fa-regular fa-arrow-left"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="contact__form">
-                            <h3 class="text-capitalize mb-30 text-center">get a free consultation with marketing our
-                                Expert</h3>
+                            <h3 class="text-capitalize mb-30 text-center">احصل على استشارة مجانية مع خبرائنا</h3>
                             <form action="#">
-                                <input type="text" placeholder="Company Name">
+                                <input type="text" placeholder="اسم الرياضة">
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="First Name*">
+                                        <input type="text" placeholder="الاسم الاول*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Last Name*">
+                                        <input type="text" placeholder="الاسم الاخير*">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col-6">
-                                        <input type="text" placeholder="Email Address*">
+                                        <input type="text" placeholder="البريد الإلكتروني*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" placeholder="Phone Number*">
+                                        <input type="text" placeholder="رقم الهاتف*">
                                     </div>
                                 </div>
-                                <textarea name="#" id="#" placeholder="Message"></textarea>
-                                <button class="btn-one transition">Submit<i
-                                        class="fa-regular fa-circle-arrow-right ml-10"></i></button>
+                                <textarea name="#" id="#" placeholder="الرسالة*"></textarea>
+                                <button class="btn-one transition">تأكيد<i
+                                        class="fa-regular fa-circle-arrow-left ml-10"></i></button>
                             </form>
                         </div>
                     </div>
